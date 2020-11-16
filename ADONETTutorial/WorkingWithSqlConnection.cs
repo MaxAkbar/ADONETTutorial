@@ -6,6 +6,9 @@ namespace ADONETTutorial
 {
     public class WorkingWithSqlConnection
     {
+        /// <summary>
+        /// Reference Code: https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlconnection.getschema?view=dotnet-plat-ext-5.0
+        /// </summary>
         public static void SqlConnectionExample()
         {
             SqlConnectionStringBuilder sqlConnectionStringBuilder = new SqlConnectionStringBuilder
